@@ -17,8 +17,8 @@ public class SecondLargestElement {
 	            ar[p++] = ar[i];  
 	        }  	
 	    }  
-	        ar[p++] = ar[n-1];  
-	    System.out.println(ar[p-2]);
+	     ar[p++] = ar[n-1]; 
+	    System.out.println("Largest: "+ar[p-1]);
+	    System.out.println("Second Largest: "+ar[p-2]);
 	}
-
 }
