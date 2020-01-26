@@ -1,13 +1,12 @@
 import java.util.*;
 public class StringPermutation {
 	
-	static String swap(String a, int i, int j) {  
-        char[] b =a.toCharArray();  
-        char ch;  
-        ch = b[i];  
-        b[i] = b[j];  
-        b[j] = ch;  
-        return String.valueOf(b);  
+	static String swap(String str1, int i, int j) {  
+        char[] ch =str1.toCharArray();    
+        char temp = ch[i];  
+        ch[i] = ch[j];  
+        ch[j] = temp;  
+        return String.valueOf(ch);  
     }  
 
 	static void permutation(String str,int start,int end) {
